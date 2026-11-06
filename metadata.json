@@ -1,0 +1,6 @@
+{
+  "name": "Veridian Auth",
+  "description": "A premium, professional authentication interface with modern design principles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

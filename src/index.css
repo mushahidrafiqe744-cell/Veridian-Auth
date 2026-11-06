@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply text-[#111827] selection:bg-[#16A34A]/20 selection:text-[#16A34A];
+  }
+}
+
+/* Custom focus ring for accessibility */
+:focus-visible {
+  @apply outline-none ring-2 ring-[#16A34A] ring-offset-2;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  @apply transition-[background-color,border-color,color,box-shadow] duration-200;
+}
